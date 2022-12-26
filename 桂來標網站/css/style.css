@@ -121,11 +121,11 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: -5px 0 0 0;
 }
 .fh5co-nav .menu-2 li input[type=text] {
-  padding: 6px 10px;
-  width: 40%;
+  padding: 1px 10px;
+  width: 50%;
   border: none;
   float: right;
-  font-size: 13px;
+  font-size: 16px;
   margin-top: 4px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -178,6 +178,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   margin: 0;
 }
+
 .fh5co-nav ul li {
   padding: 0;
   margin: 0;
@@ -186,7 +187,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: "Montserrat", Arial, sans-serif;
 }
 .fh5co-nav ul li a {
-  font-size: 13px;
+  font-size: 18px;
   padding: 30px 10px;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.5);
@@ -194,6 +195,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
   color: black;
 }
