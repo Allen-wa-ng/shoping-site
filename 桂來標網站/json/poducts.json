@@ -1,0 +1,152 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "title": "產品 - 臘肉類",
+            "desc": "臘肉以『條』為單位購買。 每條臘肉重量約1斤半~2斤左右。 大小、肥瘦可在備註填寫。",
+            "items": [
+                {
+                    "id": "1",
+                    "title": "五花肉",
+                    "price": "$380 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "2",
+                    "title": "腿肉",
+                    "price": "$380 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "3",
+                    "title": "六兩肉",
+                    "price": "$350 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "4",
+                    "title": "梅花肉",
+                    "price": "$400 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "5",
+                    "title": "腱子肉",
+                    "price": "$400 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "6",
+                    "title": "家鄉肉",
+                    "price": "$400 / 每斤",
+                    "img": "images/product-1.jpg"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "產品 - 香腸類",
+            "desc": "港式每斤約9~10節，其他香腸每斤約6~8節。 豆腐香腸帶辣，原味帶點胡椒的辣。",
+            "items": [
+                {
+                    "id": "1",
+                    "title": "高粱香腸",
+                    "price": "$380 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "2",
+                    "title": "原味香腸",
+                    "price": "$380 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "3",
+                    "title": "辣味香腸",
+                    "price": "$380 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "4",
+                    "title": "麻辣香腸",
+                    "price": "$400 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "5",
+                    "title": "豆腐香腸",
+                    "price": "$380 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "6",
+                    "title": "港式肝腸、港式臘腸",
+                    "price": "$380 / 每斤",
+                    "img": "images/product-1.jpg"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "產品 - 臘魚類",
+            "desc": "草魚整隻販售。",
+            "items": [
+                {
+                    "id": "1",
+                    "title": "草魚",
+                    "price": "$600 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "2",
+                    "title": "鰻魚",
+                    "price": "以時價為主",
+                    "img": "images/product-1.jpg"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "title": "產品 - 其它",
+            "desc": "『燻雞腿』每斤約2隻。 『燻豬頭皮』以『個』為單位。 燻豆腐丸子每斤2~3顆。",
+            "items": [
+                {
+                    "id": "1",
+                    "title": "燻雞腿",
+                    "price": "260 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "2",
+                    "title": "燻豬頭皮",
+                    "price": "260 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "3",
+                    "title": "燻豬舌頭",
+                    "price": "$400 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "4",
+                    "title": "臘鴨",
+                    "price": "$1200 / 隻",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "5",
+                    "title": "臘八豆",
+                    "price": "$180 / 罐",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "6",
+                    "title": "燻豆腐丸子（辣 / 不辣",
+                    "price": "$400 / 每斤",
+                    "img": "images/product-1.jpg"
+                }
+            ]
+        }
+    ]
+}

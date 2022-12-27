@@ -1,0 +1,19 @@
+<?php $href = "single.html?item=" . strval($title) ?>
+
+<div class="col-md-4 col-xs-6 text-center animate-box">
+    <div class="product">
+        <div class="product-grid" style="background-image:url(<?php echo strval($img) ?>);"
+            onclick='href("<?php echo $href ?>")'>
+            <div class="inner" onclick>
+                <p>
+                    <a href="<?php echo $href ?>" class="icon"><i class="icon-shopping-cart"></i></a>
+                    <a href="<?php echo $href ?>" class="icon"><i class="icon-eye"></i></a>
+                </p>
+            </div>
+        </div>
+        <div class="desc">
+            <h3><a href="<?php echo $href ?>"><?php echo strval($title) ?></a></h3>
+            <span class="price"><?php echo strval($price) ?></span>
+        </div>
+    </div>
+</div>
