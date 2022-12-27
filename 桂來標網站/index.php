@@ -79,12 +79,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3 col-xs-6">
-						<div id="fh5co-logo"><a href="">桂來標湖南臘肉</a></div>
+						<div id="fh5co-logo"><a href="index.php">桂來標湖南臘肉</a></div>
 					</div>
 					<div class="col-md-6 col-xs-6 text-center menu-1">
 						<ul>
 							<li class="has-dropdown">
-								<a>產品</a>
+								<a href="index.php">產品</a>
 								<ul class="dropdown">
 									<li><a onclick='hrefToPosition("product1")'>臘肉類</a></li>
 									<li><a onclick='hrefToPosition("product2")'>香腸類</a></li>

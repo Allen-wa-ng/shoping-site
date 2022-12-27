@@ -74,13 +74,31 @@
                 },
                 {
                     "id": "5",
-                    "title": "豆腐香腸",
+                    "title": "原味豆腐香腸",
                     "price": "$380 / 每斤",
                     "img": "images/product-1.jpg"
                 },
                 {
                     "id": "6",
-                    "title": "港式肝腸、港式臘腸",
+                    "title": "麻辣豆腐香腸",
+                    "price": "$380 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "7",
+                    "title": "紅鞠香腸",
+                    "price": "$未知 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "8",
+                    "title": "港式肝腸",
+                    "price": "$380 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "9",
+                    "title": "港式臘腸",
                     "price": "$380 / 每斤",
                     "img": "images/product-1.jpg"
                 }
@@ -113,13 +131,13 @@
                 {
                     "id": "1",
                     "title": "燻雞腿",
-                    "price": "260 / 每斤",
+                    "price": "$260 / 每斤",
                     "img": "images/product-1.jpg"
                 },
                 {
                     "id": "2",
                     "title": "燻豬頭皮",
-                    "price": "260 / 每斤",
+                    "price": "$260 / 每斤",
                     "img": "images/product-1.jpg"
                 },
                 {
@@ -142,8 +160,20 @@
                 },
                 {
                     "id": "6",
-                    "title": "燻豆腐丸子（辣 / 不辣",
+                    "title": "原味 燻豆腐丸子",
                     "price": "$400 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "6",
+                    "title": "辣味 燻豆腐丸子",
+                    "price": "$400 / 每斤",
+                    "img": "images/product-1.jpg"
+                },
+                {
+                    "id": "6",
+                    "title": "牛腱肉",
+                    "price": "$未知 / 每斤",
                     "img": "images/product-1.jpg"
                 }
             ]
