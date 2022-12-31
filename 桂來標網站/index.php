@@ -125,7 +125,7 @@
 
             $func = function (array $json): string {
 	            return load_template('menu_item', [
-	            	'img' => $json['img'],
+	            	'imgs' => $json['imgs'],
 	            	'title' => $json['title'],
 	            	'price' => $json['price'],
 	            ]);

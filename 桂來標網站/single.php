@@ -1,3 +1,5 @@
+<?php include './php/main.php'; ?>
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -114,69 +116,84 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1 animate-box">
 					<div class="owl-carousel owl-carousel-fullwidth product-carousel">
-						<div class="item">
-							<div class="active text-center">
-								<figure>
-									<img src="images/product-single-1.jpg" alt="user">
-								</figure>
-							</div>
-						</div>
-						<div class="item">
-							<div class="active text-center">
-								<figure>
-									<img src="images/product-single-2.jpg" alt="user">
-								</figure>
-							</div>
-						</div>
-						<div class="item">
-							<div class="active text-center">
-								<figure>
-									<img src="images/product-single-3.jpg" alt="user">
-								</figure>
-							</div>
-						</div>
-						<div class="item">
-							<div class="active text-center">
-								<figure>
-									<img src="images/product-single-4.jpg" alt="user">
-								</figure>
-							</div>
-						</div>
-						<div class="item">
-							<div class="active text-center">
-								<figure>
-									<img src="images/product-single-5.jpg" alt="user">
-								</figure>
-							</div>
-						</div>
+						
+						<?php
+							$item = "";
+							$type = "";
+							$data = get_file('./json/poducts.json');
+							$key =false;
+							foreach ($data['products'] as &$json) {
+								foreach($json["items"] as &$item){
+									if($item['title']!=$_GET["item"]){
+										continue;
+									}	
+									$GLOBALS["item"]=$item;
+									
+									foreach($item["imgs"] as &$img){
+										echo load_template('single_imgs', [
+											'img' => $img,
+										]);
+									}
+									$key=true;
+									if($key) $GLOBALS["type"]=$json; 
+									break;
+								}
+								
+								if($key) break;
+							}
+
+						?>
+
 					</div>
 					<div class="row animate-box">
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-							<h2>Hauteville Rocking Chair</h2>
-							<?php
-							
-							?>
+							<h2><?php echo $item['title']?></h2>
+							<h2><?php echo $item['price']?></h2>
+								<blockquote><p>
+									<?php 
+										if($type['title'] == "產品 - 臘肉類")
+											{echo "臘肉以『條』為單位購買。 每條臘肉重量約1斤半~2斤左右。 大小、肥瘦可在備註填寫。";}
 
-							<h2>$ 350 / 每斤</h2>
+										elseif ($item['title'] == "港式肝腸" || $item['title'] == "港式臘腸")
+											{echo  $item['title'] . "每斤約9~10節。";}
+										
+										elseif ($type['title'] == "產品 - 香腸類" and $item['title'] != "港式肝腸" || $item['title'] != "港式臘腸")
+											{echo $item['title'] . "每斤約6~8節。";}
+
+										elseif ($item['title'] == "原味豆腐香腸" || $item['title'] == "麻辣豆腐香腸")
+											{echo "豆腐香腸帶辣，原味帶點胡椒的辣。";}
+
+										elseif ($item['title'] == "草魚")
+											{echo "草魚整隻販售。";}
+
+										elseif ($item['title'] == "燻雞腿")
+											{echo "燻雞腿每斤約2隻。";}
+
+										elseif ($item['title'] == "燻豬頭皮")
+											{echo "燻豬頭皮以『個』為單位。 ";}
+
+										elseif ($item['title'] == "原味 燻豆腐丸子" || $item['title'] == "辣味 燻豆腐丸子")
+											{echo $item['title'] . "每斤2~3顆。";}
+									?>
+								</p></blockquote>
 							<p>
-								<a href="#" class="btn btn-primary btn-outline btn-lg">Add to Cart</a>
-								<!-- <a href="#" class="btn btn-primary btn-outline btn-lg">Compare</a> -->
+								<a href="#" class="btn btn-primary btn-outline btn-lg">加入購物車</a>
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="fh5co-tabs animate-box">
 						<ul class="fh5co-tab-nav">
 							<li class="active"><a href="#" data-tab="1"><span class="icon visible-xs"><i class="icon-file"></i></span><span class="hidden-xs">Product Details</span></a></li>
 							<li><a href="#" data-tab="2"><span class="icon visible-xs"><i class="icon-bar-graph"></i></span><span class="hidden-xs">Specification</span></a></li>
 							<li><a href="#" data-tab="3"><span class="icon visible-xs"><i class="icon-star"></i></span><span class="hidden-xs">Feedback &amp; Ratings</span></a></li>
-						</ul>
+						</ul> -->
 
 						<!-- Tabs -->
-						<div class="fh5co-tab-content-wrap">
+						<!-- <div class="fh5co-tab-content-wrap">
 
 							<div class="fh5co-tab-content tab-content active" data-tab-content="1">
 								<div class="col-md-10 col-md-offset-1">
@@ -255,7 +272,7 @@
 
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 
@@ -307,7 +324,8 @@
 	<script src="js/jquery.flexslider-min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-
+	<!-- Mine -->
+	<script src="js/mine.js"></script>
 	</body>
 </html>
 
