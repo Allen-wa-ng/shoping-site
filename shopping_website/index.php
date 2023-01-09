@@ -141,6 +141,7 @@
 	            	'id' => $json['id'],
 	            	'title' => $json['title'],
 	            	'desc' => $json['desc'],
+	            	'desc2' => $json['desc2'],
 	            	'items' => implode("", $items),
 	            ]);
             }
