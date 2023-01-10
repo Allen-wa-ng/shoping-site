@@ -22,13 +22,13 @@
                     "id": "3",
                     "title": "六兩肉",
                     "price": "$350 / 每斤",
-                    "imgs":[{"id":"images/臘肉/六兩肉.jpg"},{"id":"images/臘肉/六兩肉.jpg"},{"id":"images/臘肉/六兩肉.jpg"}]
+                    "imgs":[{"id":"images/臘肉/六兩肉-1.jpg"},{"id":"images/臘肉/六兩肉-2.jpg"}]
                 },
                 {
                     "id": "4",
                     "title": "梅花肉",
                     "price": "$400 / 每斤",
-                    "imgs":[{"id":"images/臘肉/五花肉-2.jpg"},{"id":"images/臘肉/五花肉-1.jpg"},{"id":"images/臘肉/五花肉-3.jpg"}]
+                    "imgs":[{"id":"images/臘肉/梅花肉-1.jpg"},{"id":"images/臘肉/梅花肉-2.jpg"},{"id":"images/臘肉/梅花肉-3.jpg"}]
                 },
                 {
                     "id": "5",
@@ -54,13 +54,13 @@
                     "id": "1",
                     "title": "高粱香腸",
                     "price": "$380 / 每斤",
-                    "imgs":[{"id":"images/臘肉/高粱香腸-3.jpg"},{"id":"images/臘肉/高粱香腸-2.jpg"},{"id":"images/臘肉/高粱香腸-2.jpg"}]
+                    "imgs":[{"id":"images/臘肉/高粱香腸-1.jpg"},{"id":"images/臘肉/高粱香腸-4.jpg"},{"id":"images/臘肉/高粱香腸-2.jpg"}]
                 },
                 {
                     "id": "2",
                     "title": "原味香腸",
                     "price": "$380 / 每斤",
-                    "imgs":[{"id":"images/臘肉/原味香腸-3.jpg"},{"id":"images/臘肉/原味香腸-1.jpg"},{"id":"images/臘肉/原味香腸-2.jpg"}]
+                    "imgs":[{"id":"images/臘肉/原味香腸-4.jpg"},{"id":"images/臘肉/原味香腸-1.jpg"},{"id":"images/臘肉/原味香腸-2.jpg"}]
                 },
                 {
                     "id": "3",
