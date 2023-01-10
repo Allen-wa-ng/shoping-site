@@ -54,55 +54,55 @@
                     "id": "1",
                     "title": "高粱香腸",
                     "price": "$380 / 每斤",
-                    "imgs":[{"id":"images/臘肉/高粱香腸-1.jpg"},{"id":"images/臘肉/高粱香腸-4.jpg"},{"id":"images/臘肉/高粱香腸-2.jpg"}]
+                    "imgs":[{"id":"images/臘肉/高粱香腸-4.png"},{"id":"images/臘肉/高粱香腸-5.png"},{"id":"images/臘肉/高粱香腸-1.jpg"}]
                 },
                 {
                     "id": "2",
                     "title": "原味香腸",
                     "price": "$380 / 每斤",
-                    "imgs":[{"id":"images/臘肉/原味香腸-4.jpg"},{"id":"images/臘肉/原味香腸-1.jpg"},{"id":"images/臘肉/原味香腸-2.jpg"}]
+                    "imgs":[{"id":"images/臘肉/原味香腸-4.png"},{"id":"images/臘肉/原味香腸-5.png"},{"id":"images/臘肉/原味香腸-6.png"}]
                 },
                 {
                     "id": "3",
                     "title": "辣味香腸",
                     "price": "$380 / 每斤",
-                    "imgs":[{"id":"images/臘肉/五花肉-2.jpg"},{"id":"images/臘肉/五花肉-2.jpg"},{"id":"images/臘肉/五花肉-2.jpg"}]
+                    "imgs":[{"id":"images/臘肉/辣味香腸-2.png"},{"id":"images/臘肉/辣味香腸-1.png"},{"id":"images/臘肉/辣味香腸-2.png"}]
                 },
                 {
                     "id": "4",
                     "title": "麻辣香腸",
                     "price": "$400 / 每斤",
-                    "imgs":[{"id":"images/臘肉/五花肉-2.jpg"},{"id":"images/臘肉/五花肉-2.jpg"},{"id":"images/臘肉/五花肉-2.jpg"}]
+                    "imgs":[{"id":"images/臘肉/麻辣香腸-2.png"},{"id":"images/臘肉/麻辣香腸-1.png"},{"id":"images/臘肉/麻辣香腸-3.png"}]
                 },
                 {
                     "id": "5",
                     "title": "原味豆腐香腸",
                     "price": "$380 / 每斤",
-                    "imgs":[{"id":"images/臘肉/原味豆腐香腸-1.jpg"},{"id":"images/臘肉/原味豆腐香腸-2.jpg"},{"id":"images/臘肉/原味豆腐香腸-2.jpg"}]
+                    "imgs":[{"id":"images/臘肉/原味豆腐香腸-5.png"},{"id":"images/臘肉/原味豆腐香腸-4.jpg"},{"id":"images/臘肉/原味豆腐香腸-2.jpg"}]
                 },
                 {
                     "id": "6",
                     "title": "麻辣豆腐香腸",
                     "price": "$380 / 每斤",
-                    "imgs":[{"id":"images/臘肉/辣味豆腐香腸.jpg"},{"id":"images/臘肉/辣味豆腐香腸-2.jpg"},{"id":"images/臘肉/辣味豆腐香腸-1.jpg"}]
+                    "imgs":[{"id":"images/臘肉/辣味豆腐香腸-5.png"},{"id":"images/臘肉/辣味豆腐香腸-6.png"},{"id":"images/臘肉/辣味豆腐香腸-4.png"}]
                 },
                 {
                     "id": "7",
                     "title": "紅鞠香腸",
                     "price": "$未知 / 每斤",
-                    "imgs":[{"id":"images/臘肉/紅鞠香腸-2.jpg"},{"id":"images/臘肉/紅鞠香腸-3.jpg"},{"id":"images/臘肉/紅鞠香腸-1.jpg"}]
+                    "imgs":[{"id":"images/臘肉/紅鞠香腸-4.png"},{"id":"images/臘肉/紅鞠香腸-3.png"},{"id":"images/臘肉/紅鞠香腸-1.jpg"}]
                 },
                 {
                     "id": "8",
                     "title": "港式肝腸",
                     "price": "$380 / 每斤",
-                    "imgs":[{"id":"images/臘肉/港式肝腸-3.jpg"},{"id":"images/臘肉/港式肝腸-1.jpg"},{"id":"images/臘肉/港式肝腸-2.jpg"}]
+                    "imgs":[{"id":"images/臘肉/港式肝腸-3.jpg"},{"id":"images/臘肉/港式肝臘腸-1.jpg"},{"id":"images/臘肉/港式肝腸-2.jpg"}]
                 },
                 {
                     "id": "9",
                     "title": "港式臘腸",
                     "price": "$380 / 每斤",
-                    "imgs":[{"id":"images/臘肉/港式肝臘腸-1.jpg"},{"id":"images/臘肉/港式肝臘腸-1.jpg"},{"id":"images/臘肉/港式肝臘腸-1.jpg"}]
+                    "imgs":[{"id":"images/臘肉/港式臘腸-2.jpg"},{"id":"images/臘肉/港式肝臘腸-1.jpg"},{"id":"images/臘肉/港式臘腸-3.jpg"}]
                 }
             ]
         },
@@ -116,13 +116,7 @@
                     "id": "1",
                     "title": "草魚",
                     "price": "$600 / 每斤",
-                    "imgs":[{"id":"images/臘肉/草魚-1.jpg"},{"id":"images/臘肉/草魚-2.jpg"},{"id":"images/臘肉/草魚-3.jpg"}]
-                },
-                {
-                    "id": "2",
-                    "title": "鰻魚",
-                    "price": "以時價為主",
-                    "imgs":[{"id":"images/臘肉/草魚-1.jpg"},{"id":"images/臘肉/草魚-1.jpg"},{"id":"images/臘肉/草魚-1.jpg"}]
+                    "imgs":[{"id":"images/臘肉/草魚-1.jpg"},{"id":"images/臘肉/草魚-3.jpg"},{"id":"images/臘肉/草魚-2.jpg"}]
                 }
             ]
         },
@@ -142,7 +136,7 @@
                     "id": "2",
                     "title": "燻豬頭皮",
                     "price": "$260 / 每斤",
-                    "imgs":[{"id":"images/臘肉/五花肉-2.jpg"},{"id":"images/臘肉/五花肉-2.jpg"},{"id":"images/臘肉/五花肉-2.jpg"}]
+                    "imgs":[{"id":"images/臘肉/豬頭皮-3.png"},{"id":"images/臘肉/豬頭皮-1.jpg"},{"id":"images/臘肉/豬頭皮-5.png"}]
                 },
                 {
                     "id": "3",
@@ -160,7 +154,7 @@
                     "id": "5",
                     "title": "臘八豆",
                     "price": "$180 / 罐",
-                    "imgs":[{"id":"images/臘肉/豆瓣醬.jpg"},{"id":"images/臘肉/豆瓣醬.jpg"},{"id":"images/臘肉/豆瓣醬.jpg"}]
+                    "imgs":[{"id":"images/臘肉/臘八鬥-1.jpg"},{"id":"images/臘肉/臘八鬥-2.png"},{"id":"images/臘肉/臘八鬥-3.png"}]
                 },
                 {
                     "id": "6",
@@ -177,8 +171,8 @@
                 {
                     "id": "6",
                     "title": "牛腱肉",
-                    "price": "$未知 / 每斤",
-                    "imgs":[{"id":"images/臘肉/牛腱.jpg"},{"id":"images/臘肉/牛腱-2.jpg"},{"id":"images/臘肉/牛腱-1.jpg"}]
+                    "price": "$750 / 每斤",
+                    "imgs":[{"id":"images/臘肉/牛腱-1.jpg"},{"id":"images/臘肉/牛腱-2.jpg"},{"id":"images/臘肉/牛腱-1.jpg"}]
                 }
             ]
         }
