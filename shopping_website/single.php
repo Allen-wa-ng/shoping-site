@@ -103,7 +103,7 @@
 								  </span>
 								</div>
 							</li>
-							<li class="shopping-cart"><a href="#" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
+							<li class="shopping-cart"><a href="cart.html" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
 						</ul>
 					</div>
 				</div>
