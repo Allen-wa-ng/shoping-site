@@ -139,6 +139,12 @@
                     "imgs":[{"id":"images/臘肉/豬頭皮-3.png"},{"id":"images/臘肉/豬頭皮-1.jpg"},{"id":"images/臘肉/豬頭皮-5.png"}]
                 },
                 {
+                    "id": "6",
+                    "title": "牛腱肉",
+                    "price": "$750 / 每斤",
+                    "imgs":[{"id":"images/臘肉/牛腱-1.jpg"},{"id":"images/臘肉/牛腱-2.jpg"},{"id":"images/臘肉/牛腱-1.jpg"}]
+                },
+                {
                     "id": "3",
                     "title": "燻豬舌頭",
                     "price": "$400 / 每斤",
@@ -149,12 +155,6 @@
                     "title": "臘鴨",
                     "price": "$1200 / 隻",
                     "imgs":[{"id":"images/臘肉/鴨-2.jpg"},{"id":"images/臘肉/鴨-1.jpg"},{"id":"images/臘肉/鴨-4.jpg"}]
-                },
-                {
-                    "id": "5",
-                    "title": "臘八豆",
-                    "price": "$180 / 罐",
-                    "imgs":[{"id":"images/臘肉/臘八鬥-1.jpg"},{"id":"images/臘肉/臘八鬥-2.png"},{"id":"images/臘肉/臘八鬥-3.png"}]
                 },
                 {
                     "id": "6",
@@ -169,10 +169,10 @@
                     "imgs":[{"id":"images/臘肉/豆腐丸子-1.jpg"},{"id":"images/臘肉/豆腐丸子-2.jpg"},{"id":"images/臘肉/豆腐丸子.jpg"}]
                 },
                 {
-                    "id": "6",
-                    "title": "牛腱肉",
-                    "price": "$750 / 每斤",
-                    "imgs":[{"id":"images/臘肉/牛腱-1.jpg"},{"id":"images/臘肉/牛腱-2.jpg"},{"id":"images/臘肉/牛腱-1.jpg"}]
+                    "id": "5",
+                    "title": "臘八豆",
+                    "price": "$180 / 罐",
+                    "imgs":[{"id":"images/臘肉/臘八鬥-1.jpg"},{"id":"images/臘肉/臘八鬥-2.png"},{"id":"images/臘肉/臘八鬥-3.png"}]
                 }
             ]
         }
