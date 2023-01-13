@@ -5,17 +5,17 @@
 * Template URI: https://untree.co/
 * License: https://creativecommons.org/licenses/by/3.0/
 */ -->
+<?php include './php/main.php'; ?>
+
 <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>桂來標湖南臘肉 &mdash; Free Website Template, Free HTML5 Template by gettemplates.co</title>
-		<meta name="author" content="Untree.co">
 		<link rel="shortcut icon" href="favicon.png">
 
 		<meta name="description" content="" />
-		<meta name="keywords" content="bootstrap, bootstrap4" />
 
 		<!-- Bootstrap CSS -->
 		<link href="css/css/bootstrap.min.css" rel="stylesheet">
@@ -65,12 +65,12 @@
 						<ul>
 							<li class="has-dropdown">
 								<a href="index.php">產品</a>
-								<ul class="dropdown">
-									<li><a onclick='hrefToPosition("product1")'>臘肉類</a></li>
-									<li><a onclick='hrefToPosition("product2")'>香腸類</a></li>
-									<li><a onclick='hrefToPosition("product3")'>臘魚類</a></li>
-									<li><a onclick='hrefToPosition("product4")'>其它</a></li>
-								</ul>
+									<ul class="dropdown">
+										<li><a href="index.php#product1">臘肉類</a></li>
+										<li><a href="index.php#product2">香腸類</a></li>
+										<li><a href="index.php#product3">臘魚類</a></li>
+										<li><a href="index.php#product4">其它</a></li>
+									</ul>
 							</li>
 							<li class="has-dropdown">
 								<a href="services.html">訂單檢視</a>
@@ -89,7 +89,7 @@
 									</span>
 								</div>
 							</li>
-							<li class="shopping-cart"><a href="cart.html" class="cart">
+							<li class="shopping-cart"><a href="cart.php" class="cart">
 									<span><small>0</small><i class="icon-shopping-cart"></i></span>
 								</a></li>
 						</ul>

@@ -109,7 +109,7 @@
 									</span>
 								</div>
 							</li>
-							<li class="shopping-cart"><a href="cart.html" class="cart">
+							<li class="shopping-cart"><a href="cart.php" class="cart">
 									<span><small>0</small><i class="icon-shopping-cart"></i></span>
 								</a></li>
 						</ul>
