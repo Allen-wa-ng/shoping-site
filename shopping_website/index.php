@@ -1,6 +1,5 @@
 <?php include './php/main.php'; ?>
 
-
 <!DOCTYPE HTML>
 <html>
 
@@ -112,6 +111,8 @@
 							<li class="shopping-cart"><a href="cart.php" class="cart">
 									<span><small>0</small><i class="icon-shopping-cart"></i></span>
 								</a></li>
+
+								<li class="shopping-cart"><button onclick='insert()'>test</button></li>
 						</ul>
 					</div>
 				</div>
@@ -207,7 +208,10 @@
 <!-- Main -->
 <script src="js/main.js"></script>
 <!-- Mine -->
-<script src="js/mine.js"></script>
+<!-- <script href="js/mine.js?_t=<%=new Date().indexOf()%>"></script> -->
+<script>
+    document.write('<script type="text/javascript" src="js/mine.js?v='+new Date().getTime()+'"><\/script>');
+</script>
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 
 
